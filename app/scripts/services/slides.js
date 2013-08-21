@@ -3,17 +3,10 @@
 angular
 		.module('togozikApp')
 		.factory(
-				'Slides',
+				'slides',
 				function(angularFireCollection,fbUrl ) {
-					// Service logic
-					// ...
 
 					var slideShowData = angularFireCollection(fbUrl);
 
-					// Public API here
-					/*
-					 * return { getSlides: function () { return slides; } };
-					 */
-					
 					return slideShowData;
 				});

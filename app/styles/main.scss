@@ -210,7 +210,7 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
     /* Featurettes
     ------------------------- */
 
-    .featurette-divhttp://getbootstrap.com/2.3.2/assets/img/examples/browser-icon-safari.pngider {
+    .featurette-divider {
       margin: 80px 0; /* Space out the Bootstrap <hr> more */
     }
     .featurette {
@@ -277,7 +277,7 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 
     @media (max-width: 767px) {
 
-      .navbar-innerhttp://getbootstrap.com/2.3.2/assets/img/examples/browser-icon-safari.png {
+      .navbar-inner {
         margin: -20px;
       }
 
@@ -292,7 +292,7 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
         height: 400px;
       }
       .carousel img {
-        height: 400http://getbootstrap.com/2.3.2/assets/img/examples/browser-icon-safari.pngpx;
+        height: 400px;
       }
       .carousel-caption {
         width: 65%;

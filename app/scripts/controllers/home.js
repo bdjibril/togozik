@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('togozikApp').controller('HomeCtrl', function($scope,Slides,$route) {
+angular.module('togozikApp').controller('HomeCtrl', function($scope,$route,slides) {
 	  //$scope.slideShow = slideShow;
-	  $scope.slideShow = Slides;
+	  $scope.slideShow = slides;
 	  $scope.$route = $route;
 	  
 	// Run Holder Manually

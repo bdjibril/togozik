@@ -1,18 +1,18 @@
 'use strict';
 
-describe('Service: Slides', function () {
+describe('Service: slides', function () {
 
   // load the service's module
   beforeEach(module('togozikApp'));
 
   // instantiate service
-  var Slides;
-  beforeEach(inject(function (_Slides_) {
-    Slides = _Slides_;
+  var slides;
+  beforeEach(inject(function (_slides_) {
+    slides = _slides_;
   }));
 
   it('should do something', function () {
-    expect(!!Slides).toBe(true);
+    expect(!!slides).toBe(true);
   });
 
 });
