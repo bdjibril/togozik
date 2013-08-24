@@ -1,12 +1,10 @@
 'use strict';
 
-angular
-		.module('togozikApp')
-		.factory(
-				'slides',
-				function(angularFireCollection,fbUrl ) {
+angular.module('togozikApp').factory('slides',
 
-					var slideShowData = angularFireCollection(fbUrl);
+function(angularFireCollection, fbUrl) {
 
-					return slideShowData;
-				});
+    var slideShowData = angularFireCollection(fbUrl);
+
+    return slideShowData;
+});
