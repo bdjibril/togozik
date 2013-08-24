@@ -1,6 +1,6 @@
 // Generated on 2013-08-16 using generator-angular 0.3.1
 'use strict';
-var LIVERELOAD_PORT = 35729
+var LIVERELOAD_PORT = 35729;
 var lrSnippet = require('connect-livereload')({
     port: LIVERELOAD_PORT
 });
